@@ -1,0 +1,14 @@
+#name: "lili" # 冒号必须是英文格式，每个冒号后必须跟空格
+#Name: "nana"
+
+
+# 日期类型
+#data1: 2020-11-11 12:12:12
+
+info: &data
+  name: "1111"
+  phone: "123456"
+
+addr:
+  <<: *data
+  datail: "航渡路18号"
